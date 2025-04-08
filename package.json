@@ -1,0 +1,14 @@
+{
+  "private": false,
+  "workspaces": [
+    "webpage"
+  ],
+  "scripts": {
+    "dev:api": "cd api && composer run dev",
+    "dev:frontend": "cd webpage && pnpm dev",
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
