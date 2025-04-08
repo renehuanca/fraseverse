@@ -72,6 +72,7 @@ CREATE TABLE tags (
 );
 
 -- Crear tabla intermedia para la relación de muchos a muchos entre frases y etiquetas
+-- pivot
 CREATE TABLE phrase_tag (
     phrase_id INT,
     tag_id INT,
