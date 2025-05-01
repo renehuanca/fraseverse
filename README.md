@@ -7,6 +7,7 @@ Fraseverse es un sitio web dedicado a compartir frases de todo tipo: filosófica
 - **Backend**: [Laravel](https://laravel.com/) - Framework PHP para la API.
 - **Frontend**: [Astro](https://astro.build/) - Framework moderno para construir sitios web rápidos.
 - **Concurrently**: Para ejecutar múltiples scripts en paralelo.
+- **Sui-mono**: Para realizar commits semanticos en un monorepositorio multipaquete.
 
 ## Licencia
 
